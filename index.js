@@ -8,7 +8,8 @@ server.views({
     engines: {
         jsx: HapiReactViews
     },
-    path: './'
+    path: './',
+    encoding: 'ascii'
 });
 
 
